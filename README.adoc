@@ -9,14 +9,14 @@ Você deve criar uma cópia deste repositório clicando no botão "Fork" no cant
 
 Todos os arquivos devem ser incluídos dentro do pacote previamente criado.
 
-- [ ] Crie um record chamado CidadeRecord com um campo nome do tipo String.
+- [x] Crie um record chamado CidadeRecord com um campo nome do tipo String.
       Como ele só terá este único atributo String, CidadeRecord será imutável.
-- [ ] Crie uma classe Cidade mutável, contendo os mesmos atributos de CidadeRecord,
+- [x] Crie uma classe Cidade mutável, contendo os mesmos atributos de CidadeRecord,
       mas com getters e setters.
-- [ ] Crie um record chamado PessoaRecordShallow com campos `String nome` e `Cidade cidade`.
+- [x] Crie um record chamado PessoaRecordShallow com campos `String nome` e `Cidade cidade`.
       Veja que, apesar de ser um record e você não poder reatribuir valores para os campos,
       PessoaRecordShallow é superficialmente imutável (shallow imutability), pois Cidade é mutável.
-- [ ] Crie um record chamado PessoaRecord com campos `String nome` e `CidadeRecord cidade`.
+- [x] Crie um record chamado PessoaRecord com campos `String nome` e `CidadeRecord cidade`.
       Veja que, agora todos os campos de PessoaRecord são imutáveis (incluindo cidade que é finalmente um record),
       isto torna PessoaRecord profundamente (totalmente) imutável (deep imutability).
 
